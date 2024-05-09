@@ -1,8 +1,30 @@
 import React from 'react'
+import Navbar from './sections/navbar/Navbar';
+import Header from './sections/header/Headeer';
+import About from './sections/about/About';
+import Services from './sections/services/Services';
+import Portfolio from './sections/portfolio/Portfolio';
+import Testimonials from './sections/testimonials/Testimonials';
+import FAQs from './sections/faqs/FAQs';
+import Contact from './sections/contact/contact';
+import Footer from './sections/footer/Footer';
+import FloatingNav from './sections/floating-nav/FloatingNav';
 
 function App() {
   return (
-    <div>Hellow </div>
+    <main>
+      <Navbar/>
+      <Header/>
+      <About/>
+      <Services/>
+      <Portfolio/>
+      <Testimonials/>
+      <FAQs/>
+      <Contact/>
+      <Footer/>
+      <FloatingNav/>
+    </main>
+
   )
 }
 
